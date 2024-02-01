@@ -1,0 +1,274 @@
+*{
+    font-family: 'Lato', sans-serif;
+} 
+
+:root{
+    --blue-custom: rgb(6,57,108);
+    --white-custom: rgb(250,250,250);
+    --black-custom: rgb(5,5,5);
+}
+
+.textWhite{
+    color: var(--white-custom);
+}
+
+.bgWhite{
+    background-color: var(--white-custom);
+}
+
+.textBlue{
+    color: var(--blue-custom);
+}
+
+.bgBlue{
+    background-color: var(--blue-custom);
+}
+
+.textBlack{
+    color: var(--black-custom);
+}
+
+.bgBlack{
+    background-color: var(--black-custom);
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: 'Electrolize', sans-serif;
+}
+
+.interSection{
+    margin-top: 25vh;
+}
+
+.header-custom{
+    min-height: 90vh;
+    background: linear-gradient(rgba(6, 57, 108, 0.714),rgba(6, 57, 108, 0.714),rgba(6, 57, 108, 0.714)), url(./media/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.logo-custom{
+    height: 6vh;
+}
+
+.border-nav-custom{
+    border-left: 0.3vh solid;
+}
+
+.h-custom-mega{
+    height: 80vh;
+}
+
+.h-title-custom{
+    height: 5vh;
+}
+
+.bg-icon-custom{
+    background: linear-gradient(rgba(6, 57, 108, 0.488),rgba(6, 57, 108, 0.488),rgba(6, 57, 108, 0.488)), url(./media/power-plant-4712830_1280.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divPanelCustom{
+    position: relative;
+}
+
+.cardPanelCustom{
+    border: 3px solid var(--white-custom);
+    position: absolute;
+    bottom: 9.3vh;
+    z-index: 1;
+}
+
+.cardPanelCustom2{
+    background-color: var(--white-custom);
+    position: relative;
+    left: -4vw;
+    top: -2vh;
+    z-index: 2;
+}
+
+.panelCustom{
+    width: 30vw;
+    height: 40vh;
+
+}
+
+.buttonCustom{
+    width: 10vw;
+    height: 4vh;
+}
+
+.usaCustom{
+    width: 30vw;
+}
+
+.hCardPlaceCustom{
+    height: 20vh;
+}
+
+.cardPlaceCustom{
+    width: 35vw;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+}
+
+.cardPlaceCustom::after{
+    content: "";
+    width: 30vw;
+    height: 20vh;
+    position: absolute;
+    background: linear-gradient(to right,rgba(6, 57, 108, 0.373),transparent,transparent);
+    left: -35px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.hStuffCustom{
+    height: 30vh;
+}
+
+.bgCardStuff{
+    background-color: var(--blue-custom);   
+}
+
+.containerStuffCustom{
+    top: -7vh;
+}
+
+.cardStuffCustom{
+    height: 25vh;
+}
+
+.cardSun{
+    background: linear-gradient(to top,rgba(6, 57, 108, 0.822),rgba(6, 57, 108, 0.668),rgba(6, 57, 108, 0.488)), url(./media/sun.png);
+    background-position: center ;
+}
+
+.cardWind{
+    background: linear-gradient(to top,rgba(6, 57, 108, 0.822),rgba(6, 57, 108, 0.668),rgba(6, 57, 108, 0.488)), url(./media/wind.png);
+    background-position: center ;
+}
+
+.cardWave{
+    background: linear-gradient(to top,rgba(6, 57, 108, 0.822),rgba(6, 57, 108, 0.668),rgba(6, 57, 108, 0.488)), url(./media/wave.png);
+    background-position: center ;
+}
+
+.cardGas{
+    background: linear-gradient(to top,rgba(6, 57, 108, 0.822),rgba(6, 57, 108, 0.668),rgba(6, 57, 108, 0.488)), url(./media/gas.png);
+    background-position: center ;
+}
+
+.cardOil{
+    background: linear-gradient(to top,rgba(6, 57, 108, 0.822),rgba(6, 57, 108, 0.668),rgba(6, 57, 108, 0.488)), url(./media/oil.png);
+    background-position: center ;
+}
+
+.cardAtom{
+    background: linear-gradient(to top,rgba(6, 57, 108, 0.822),rgba(6, 57, 108, 0.668),rgba(6, 57, 108, 0.488)), url(./media/nuclear.png);
+    background-position: center ;
+}
+
+.loadingOne, .loadingTwo, .loadingThree, .loadingFour, .loadingFive{
+    position: relative;
+}
+
+.loadingOne::after, .loadingTwo::after, .loadingThree::after, .loadingFour::after, .loadingFive::after{
+    position: absolute;
+    content: "";
+    top: 4vh;
+    left: 2.5vw;
+    border-bottom: 10px solid var(--blue-custom);
+}
+
+.loadingOne::after{
+    width: 25%;
+}
+
+.loadingTwo::after{
+    width: 40%;
+}
+
+.loadingThree::after{
+    width: 55%;
+}
+
+.loadingFour::after{
+    width: 65%;
+}
+
+.loadingFive::after{
+    width: 50%;
+}
+
+.rowFooter{
+    position: relative;
+}
+
+.sectionFooterCustom{
+    position: absolute;
+    right: 10vw;
+    top: -10vh;
+    width: 25vw;
+}
+
+.paragraphFooterCustom{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:400px) {
+
+    .usaCustom{
+        padding-top: 3vh;
+        padding-right: 2vw;
+        width: 85vw;
+    }
+    .buttonCustom {
+        width: 40vw;
+        height: 5vh;
+    }
+
+    .interSection{
+        margin-top: 15vh;
+    }
+
+    .sixCards{
+        background-color: var(--blue-custom);
+    }
+
+    .loadingOne::after, .loadingTwo::after, .loadingThree::after, .loadingFour::after, .loadingFive::after{
+        left: 12.5vw;
+        top: 5vh
+    }
+
+    .cardPanelCustom{
+        position: unset;
+        border: none;
+        padding: 0px;
+    }
+
+    .divPanelCustom{
+        padding: 0px;
+    }
+
+    .panelCustom{
+        width: 100%;
+    }
+
+    .cardPanelCustom2{
+        position: unset;
+    }
+
+    .rowFooter{
+        position:unset;
+    }
+
+    .sectionFooterCustom{
+        position: unset;
+        width: auto;
+    }
+}
